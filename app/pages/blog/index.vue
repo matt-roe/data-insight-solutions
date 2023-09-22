@@ -3,7 +3,7 @@
     <div class="py-8 md:py-16 text-center">
       <h1 class="text-lg md:text-xl lg:text-4xl xl:text-6xl">Blog</h1>
       <h2 class="text-base md:text-lg lg:text-xl xl:text-2xl">
-        Slow-carb messenger bag mlkshk fingerstache four dollar toast.
+        Warning! The below content may consist of incoherent technobabble.
       </h2>
     </div>
 

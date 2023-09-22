@@ -2,7 +2,7 @@
   "name": "nuxt-netlifycms",
   "version": "0.0.1",
   "description": "Yo",
-  "author": "Gomah",
+  "author": "Gomah + Matthew Roe",
   "private": true,
   "scripts": {
     "dev": "nuxt-ts -o",
