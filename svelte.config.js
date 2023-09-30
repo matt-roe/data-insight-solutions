@@ -3,6 +3,7 @@ import { mdsvex } from 'mdsvex'
 import preprocess from 'svelte-preprocess'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeSlug from 'rehype-slug'
+import adapter from '@sveltejs/adapter-netlify';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
