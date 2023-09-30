@@ -1,0 +1,33 @@
+backend:
+  name: github
+  repo: matt-roe/sveltia-cms-auth # Path to your GitHub repository
+  branch: main # Branch to update (optional;)
+
+# This line should *not* be indented
+#publish_mode: editorial_workflow
+
+# These lines should *not* be indented
+media_folder: 'static/images' # Media files will be stored in the repo under static/images/uploads
+public_folder: '/images' # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: 'blog' # Used in routes, e.g., /admin/collections/blog
+    label: 'Blog' # Used in the UI
+    folder: 'src/lib/posts' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Updated Date', name: 'updated', widget: 'datetime' }
+      - { label: 'Featured Image', name: 'coverImage', widget: 'image' }
+      - { label: 'Image Width', name: 'coverWidth', widget: 'number' }
+      - { label: 'Image Height', name: 'coverHeight', widget: 'number' }
+      - { label: 'Description', name: 'excerpt', widget: 'markdown' }
+      - name: categories
+        label: Categories
+        label_singular: 'Category'
+        widget: list
+        fields:
+          - { label: 'Category Name', name: 'categoryName', widget: 'string', hint: 'Technology' }

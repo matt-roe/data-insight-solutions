@@ -1,22 +1,5 @@
-# dependencies
-node_modules
-
-# logs
-npm-debug.log
-
-# Nuxt build
-.nuxt
-
-# Nuxt generate
-dist
-
-# Ignore generated service workers
-app/static/sw.js
-app/static/workbox-sw.prod*
-
-# yarn
-yarn-error.log
-
-# Jest Coverage
-coverage
 .DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
