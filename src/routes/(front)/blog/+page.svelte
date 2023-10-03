@@ -17,3 +17,4 @@
 <PostsList posts={data.posts} />
 
 <Pagination currentPage={1} totalPosts={data.total} />
+

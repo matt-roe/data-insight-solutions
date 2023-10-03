@@ -1,18 +1,20 @@
 <!-- This file renders each individual blog post for reading. Be sure to update the svelte:head below -->
 <script>
-export let data
+  import { Alert } from 'flowbite-svelte';
 
-const {
-	title,
-	excerpt,
-	date,
-	updated,
-	coverImage,
-	coverWidth,
-	coverHeight,
-	categories
-} = data.meta
-const { PostContent } = data
+  export let data
+
+  const {
+    title,
+    excerpt,
+    date,
+    updated,
+    coverImage,
+    coverWidth,
+    coverHeight,
+    categories
+  } = data.meta
+  const { PostContent } = data
 </script>
 
 
@@ -54,6 +56,13 @@ const { PostContent } = data
 	/>
 
 	<svelte:component this={PostContent} />
+
+  <div class="p-8">
+    <Alert>
+      <span class="font-medium">Info alert!</span>
+     Categories are currently broken.
+    </Alert>
+  </div>
 
 	{#if categories}
 		<aside class="post-footer">

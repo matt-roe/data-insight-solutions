@@ -3,21 +3,21 @@
 		<img
 			class="w-48 sm:w-48 lg:w-64 xl:w-96 rounded-lg shadow-lg"
 			src="/images/collab.png"
-			alt="Burger"
+			alt="Collaboration"
 		/>
 	</div>
 	<div class="carousel-item hover:scale-[102%] transition-all duration-300">
 		<img
 			class="w-48 sm:w-48 lg:w-64 xl:w-96 rounded-lg shadow-lg"
 			src="/images/contemplateLayers.png"
-			alt="Burger"
+			alt="Design"
 		/>
 	</div>
 	<div class="carousel-item hover:scale-[102%] transition-all duration-300">
 		<img
 			class="w-48 sm:w-48 lg:w-64 xl:w-96 rounded-lg shadow-lg"
 			src="/images/datacenter.png"
-			alt="Burger"
+			alt="Data center"
 		/>
 	</div>
 </div>
