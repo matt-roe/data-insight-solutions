@@ -1,5 +1,7 @@
 <script>
 	import Callout from '$lib/components/Callout.svelte'
+
+  export const prerender = true
 </script>
 
 
@@ -40,6 +42,6 @@ Here you can inquire about us, our process and services, or just say hello!
 
     <label>Message: <br><textarea class="textarea textarea-bordered text-white w-full" placeholder="Message" name="message"></textarea></label>
     <br>
-    <button class="btn btn-secondary" type="submit">Send</button>
+    <button class="btn btn-secondary mx-auto" type="submit">Send</button>
 </form>
 </div>
