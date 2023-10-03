@@ -1,7 +1,7 @@
 <script>
 	const handleSubmit = (e) => {
 		e.preventDefault()
-		let myForm = document.getElementById('contactform');
+		let myForm = document.getElementById('contactForm');
 		let formData = new FormData(myForm);
 		fetch('/', {
 			method: 'POST',
