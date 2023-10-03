@@ -10,7 +10,7 @@ const {
 	coverImage,
 	coverWidth,
 	coverHeight,
-	categories 
+	categories
 } = data.meta
 const { PostContent } = data
 </script>
@@ -34,7 +34,17 @@ const { PostContent } = data
 
 <article class="post">
 	<!-- You might want to add an alt frontmatter attribute. If not, leaving alt blank here works, too. -->
-	<img
+
+
+	<h1>{ title }</h1>
+
+	<div class="meta">
+		<b>Published:</b> {date}
+		<br>
+		<b>Updated:</b> {updated}
+	</div>
+
+  <img
 		class="cover-image"
 		src="{coverImage}"
 		alt=""
@@ -42,14 +52,6 @@ const { PostContent } = data
 		width={coverWidth}
 		height={coverHeight}
 	/>
-
-	<h1>{ title }</h1>
-	
-	<div class="meta">
-		<b>Published:</b> {date}
-		<br>
-		<b>Updated:</b> {updated}
-	</div>
 
 	<svelte:component this={PostContent} />
 
@@ -67,4 +69,4 @@ const { PostContent } = data
 			</ul>
 		</aside>
 	{/if}
-</article> 
+</article>
