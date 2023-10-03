@@ -31,6 +31,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		prerender: {
+      crawl: true,
 			entries: [
 				'*',
 				'/api/posts/page/*',
