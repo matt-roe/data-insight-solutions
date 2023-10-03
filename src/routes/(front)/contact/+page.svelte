@@ -1,8 +1,8 @@
 <script>
 	const handleSubmit = (e) => {
 		e.preventDefault()
-		let myForm = document.getElementById('contactForm');
-		let formData = new FormData(myForm);
+		let contactForm = document.getElementById('contactForm');
+		let formData = new FormData(contactForm);
 		fetch('/', {
 			method: 'POST',
 			headers: { "Content-Type": "application/x-www-form-urlencoded" },

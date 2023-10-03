@@ -26,7 +26,7 @@
     </ul>
   </div>
   <ul class="list-disc my-10">
-    <li>Online forms</li>
+    <li>Websites</li>
     <li>PowerApps</li>
     <li>Fillable PDFs</li>
     <li>VOIP</li>
