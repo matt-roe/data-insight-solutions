@@ -42,6 +42,7 @@ Here you can inquire about us, our process and services, or just say hello!
 
     <label>Message: <br><textarea class="textarea textarea-bordered text-white w-full" placeholder="Message" name="message"></textarea></label>
     <br>
-    <button class="btn btn-secondary mx-auto" type="submit">Send</button>
+    <input type="hidden" name="form-name" value="netlify-form-example" />
+    <button class="btn btn-secondary mx-auto" type="submit" value="Submit">Send</button>
 </form>
 </div>
