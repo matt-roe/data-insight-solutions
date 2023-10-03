@@ -41,7 +41,7 @@
 						Matthew Roe - Solutions Architect
 						<time class="text-xs opacity-50">12:48</time>
 					</div>
-					<div class="chat-bubble bg-primary">I have an update on our project timeline, it looks as if the integration with your CRM has been implemented faster than expected.</div>
+					<div class="chat-bubble bg-primary">I have an update on our project timeline, the integration with your CRM has been implemented faster than expected.</div>
 					<div class="chat-footer opacity-50">Delivered</div>
 				</div>
 

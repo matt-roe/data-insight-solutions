@@ -27,14 +27,16 @@
   </div>
   <ul class="list-disc my-10">
     <li>Online forms</li>
-    <li>Fillable PDFs</li>
-    <li>Phone transcription</li>
-    <li>Teams Actionable Cards</li>
     <li>PowerApps</li>
+    <li>Fillable PDFs</li>
+    <li>VOIP</li>
+    <li>Zoom</li>
   </ul>
   <ul class="list-disc my-10">
+    <li>Existing Software</li>
     <li>Existing Databases</li>
-    <li>Existing Systems</li>
+    <li>Teams</li>
+    <li>Slack</li>
   </ul>
   <!-- Automate -->
 </div>
@@ -49,7 +51,7 @@
 		<div class="text-center max-w-lg">
 			<h2 class="text-3xl font-bold text-white">Automate</h2>
 			<p class="py-6 text-white">
-				Automating the data management cna reduce a large portion of the time to maintain the solution.
+				Automating the data management can reduce a large portion of the time to maintain the solution.
 			</p>
 			<!-- <button class="btn btn-primary w-full">Get Started</button> -->
 		</div>
@@ -62,16 +64,14 @@
   <ul class="list-disc my-10">
     <li>Low Code</li>
     <li>Full Code</li>
-    <li>ETL / ELT</li>
-    <li>Approvals</li>
-    <li>Business Process</li>
+    <li>In-app Workflows</li>
+    <li>Approval Flows</li>
   </ul>
   <ul class="list-disc my-10">
-    <li>Online forms</li>
-    <li>Fillable PDFs</li>
-    <li>Phone transcription</li>
-    <li>Teams Actionable Cards</li>
-    <li>PowerApps</li>
+    <li>Business Process</li>
+    <li>Calculations</li>
+    <li>Tracking</li>
+    <li>Statistics</li>
   </ul>
   <div class="h-full row-span-4">
     <ul class="steps steps-vertical">
@@ -113,18 +113,16 @@
     </ul>
   </div>
   <ul class="list-disc my-10">
-    <li>Low Code</li>
-    <li>Full Code</li>
-    <li>ETL / ELT</li>
-    <li>Approvals</li>
-    <li>Business Process</li>
+    <li>APIs</li>
+    <li>REST</li>
+    <li>SOAP</li>
+    <li>SDKs</li>
   </ul>
   <ul class="list-disc my-10">
-    <li>Online forms</li>
-    <li>Fillable PDFs</li>
-    <li>Phone transcription</li>
-    <li>Teams Actionable Cards</li>
-    <li>PowerApps</li>
+    <li>Extraction, Load, & Translation (ELT)</li>
+    <li>Unique IDs</li>
+    <li>Webhooks</li>
+    <li>Polling</li>
   </ul>
 
 
@@ -151,18 +149,16 @@
   <!-- Automate -->
 
   <ul class="list-disc my-10">
-    <li>Low Code</li>
-    <li>Full Code</li>
-    <li>ETL / ELT</li>
-    <li>Approvals</li>
-    <li>Business Process</li>
+    <li>Reports</li>
+    <li>Diagrams</li>
+    <li>Business Intelligence</li>
+    <li>Dashboards</li>
   </ul>
   <ul class="list-disc my-10">
-    <li>Online forms</li>
-    <li>Fillable PDFs</li>
-    <li>Phone transcription</li>
-    <li>Teams Actionable Cards</li>
-    <li>PowerApps</li>
+    <li>Power BI</li>
+    <li>Web</li>
+    <li>In-app reports</li>
+    <li>Projections</li>
   </ul>
   <div class="h-full row-span-4">
     <ul class="steps steps-vertical">
