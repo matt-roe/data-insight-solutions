@@ -1,7 +1,22 @@
-<script>
-	import Callout from '$lib/components/Callout.svelte'
+<script context="module">
+	export const prerender = true;
 </script>
 
+<script>
+	import Callout from '$lib/components/Callout.svelte'
+
+  const handleSubmit = (e) => {
+		e.preventDefault()
+		let contactForm = document.getElementById('contactForm');
+		let formData = new FormData(contactForm);
+		fetch('/', {
+			method: 'POST',
+			headers: { "Content-Type": "application/x-www-form-urlencoded" },
+			body: new URLSearchParams(formData).toString()
+		}).then(() => console.log('Form successfully submitted')).catch((error) =>
+			alert(error))
+	}
+</script>
 
 <svelte:head>
 	<title>Contact</title>
@@ -14,7 +29,7 @@ Here you can inquire about us, our process and services, or just say hello!
 
 <Callout>We can share our phone number after we know we are speaking to a human, sorry for the inconvenience!</Callout>
 <div class="container mx-auto w-4/5">
-<form class="form-control" netlify name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
+<form id="contactForm" class="form-control" netlify name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
 
     <div class="grid grid-cols-2">
       <label>Your Name: <input id="name" placeholder="Name" class="input max-w-sm text-white" type="text" name="name" /></label>
