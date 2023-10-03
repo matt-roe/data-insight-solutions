@@ -22,7 +22,7 @@
 Here you can inquire about us, our process and services, or just say hello!
 
 <div class="container mx-auto w-4/5">
-<form on:submit={handleSubmit} id="contactForm" class="form-control" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
+<form netlify on:submit={handleSubmit} id="contactForm" class="form-control" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field" action="/success">
 
     <div class="grid grid-cols-2">
       <label>Your Name: <input id="name" placeholder="Name" class="input max-w-sm text-white" type="text" name="name" /></label>
