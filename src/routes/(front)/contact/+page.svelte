@@ -1,7 +1,5 @@
 <script>
 	import Callout from '$lib/components/Callout.svelte'
-
-  export const prerender = true
 </script>
 
 
