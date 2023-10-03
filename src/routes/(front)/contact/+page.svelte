@@ -19,28 +19,28 @@ Here you can inquire about us, our process and services, or just say hello!
 <form class="form-control" netlify name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
 
     <div class="grid grid-cols-2">
-      <label>Your Name: <input placeholder="Name" class="input max-w-sm text-white" type="text" name="name" /></label>
+      <label>Your Name: <input id="name" placeholder="Name" class="input max-w-sm text-white" type="text" name="name" /></label>
 
-      <label>Business Name: <input placeholder="Business Name" class="input max-w-sm text-white" type="text" name="business" /></label>
+      <label>Business Name: <input id="business" placeholder="Business Name" class="input max-w-sm text-white" type="text" name="business" /></label>
 
-    <label>Your Email: <input placeholder="Email" class="input max-w-sm text-white" type="email" name="email" /></label>
+    <label>Your Email: <input id="email" placeholder="Email" class="input max-w-sm text-white" type="email" name="email" /></label>
 
-    <label>Your Phone: <input placeholder="Phone" class="input max-w-sm text-white" type="phone" name="phone" /></label>
+    <label>Your Phone: <input id="phone" placeholder="Phone" class="input max-w-sm text-white" type="phone" name="phone" /></label>
     <br>
     <label class="cursor-pointer label w-fit">
-      <input type="checkbox" checked="checked" class="checkbox checkbox-secondary" />
+      <input id="preferPhone" type="checkbox" checked="checked" class="checkbox checkbox-secondary" />
       <span class="label-text mx-5">I would rather speak on the phone next time.</span>
     </label>
 
   </div>
 
-    <label>Your Role: <br><select class="select w-full text-white w-fit" name="role[]" multiple>
+    <label>Your Role: <br><select id="role" class="select w-full text-white w-fit" name="role[]" multiple>
       <option value="leader">Leader</option>
       <option value="follower">Individual Contributor</option>
     </select></label>
     <br>
 
-    <label>Message: <br><textarea class="textarea textarea-bordered text-white w-full" placeholder="Message" name="message"></textarea></label>
+    <label>Message: <br><textarea id="message" required class="textarea textarea-bordered text-white w-full" placeholder="Message" name="message"></textarea></label>
     <br>
     <input type="hidden" name="form-name" value="netlify-form-example" />
     <button class="btn btn-secondary mx-auto" type="submit" value="Submit">Send</button>
