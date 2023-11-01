@@ -5,13 +5,13 @@
 
 # Services
 
-Technology solutions are widely varying in complexity and scope. For this reason we set starting costs for services. This is to allow for a successful service, even when the goal is a large one. Generally services are priced at $200 per hour.
+Technology solutions are widely varying in complexity and scope. For this reason we set starting costs for services. This is to allow for a successful service, even if the goal is a large one. Generally, services are priced at $200 per hour.
 
 ## Consultation
 
 - Macro Process Diagramming
 
-Starting at $400
+Starting at $200
 <br>
 
 - Solution Design & Statement of Work
@@ -29,9 +29,9 @@ Starting at $200
 Starting at $600
 <br>
 
-- Data & AI Strategy
+- Machine Learning / AI Model Bias & Fairness Analysis
 
-$300 per hour
+$Starting at $2000
 <br>
 
 - Start-Up Technology Strategy
@@ -39,9 +39,18 @@ $300 per hour
 $250 per hour
 <br>
 
+- Data & AI Strategy
+
+$250 per hour
+<br>
+
 ## Implementation & Administration
 
 - Website Design & Development
+  - Landing and informational pages
+  - Web forms such as contact
+  - Blog posting and Content Management Systems
+  - Low hosting fees starting at $0 / month
 
 Starting at $400
 <br>
@@ -54,7 +63,7 @@ Starting at $400
   - Entity Relationship Manager
   - Other systems
 
-Starting at $600
+Starting at $400
 <br>
 
 - Low Code Automation or Integration
@@ -76,15 +85,10 @@ Starting at $200 / month
 
 - Live training
 
-Starting at $200
-<br>
-
-- Documentation
-
-Starting at $400
+$300 per hour
 <br>
 
 - Technical Support
 
-Starting at $200
+$200 per hour
 <br>
