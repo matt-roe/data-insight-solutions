@@ -14,27 +14,27 @@ Technology solutions are widely varying in complexity and scope. For this reason
 Starting at $200
 <br>
 
-- Solution Design & Statement of Work
+- Solution Design & Statement of Work (SoW)
 
 Starting at $800
 <br>
 
-- Product Research
+- Software Product Research
 
 Starting at $200
 <br>
 
-- Request For Proposal
+- Software Request For Proposal (RFP)
 
 Starting at $600
 <br>
 
 - Machine Learning / AI Model Bias & Fairness Analysis
 
-$Starting at $2000
+Starting at $2000
 <br>
 
-- Start-Up Technology Strategy
+- Business Start-Up Technology Strategy
 
 $250 per hour
 <br>
@@ -48,20 +48,20 @@ $250 per hour
 
 - Website Design & Development
   - Landing and informational pages
-  - Web forms such as contact
+  - Web forms such as contact or online applications
   - Blog posting and Content Management Systems
   - Low hosting fees starting at $0 / month
 
 Starting at $400
 <br>
 
-- System Onboarding & Configuration
+- Software Onboarding & Configuration
 
   - VOIP Phone & SMS
-  - Email & Office Applications
+  - Office Software & Email
   - Customer Relationship Manager
   - Entity Relationship Manager
-  - Other systems
+  - Other software systems
 
 Starting at $400
 <br>
@@ -76,7 +76,7 @@ Starting at $400
 Starting at $1000
 <br>
 
-- Maintenance and Updates
+- Software Maintenance and Updates
 
 Starting at $200 / month
 <br>
