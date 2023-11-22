@@ -1,7 +1,5 @@
 <!-- This file renders each individual blog post for reading. Be sure to update the svelte:head below -->
 <script>
-  import { Alert } from 'flowbite-svelte';
-
   export let data
 
   const {
@@ -56,13 +54,6 @@
 	/>
 
 	<svelte:component this={PostContent} />
-
-  <div class="p-8">
-    <Alert>
-      <span class="font-medium">Info alert!</span>
-     Categories are currently broken.
-    </Alert>
-  </div>
 
 	{#if categories}
 		<aside class="post-footer">

@@ -1,5 +1,4 @@
 <script>
-	import { Input, Select, Label, Helper, Button, Checkbox, A, Textarea } from 'flowbite-svelte';
 	let selected;
 	let options = [
 		{ value: 'lead', name: 'Leader' },
@@ -27,33 +26,40 @@ Here you can inquire about us, our process and services, or just say hello!
 		netlify-honeypot="bot-field"
 		action="https://formspree.io/f/mvojdjre"
 	>
-		<Label for="name" class="mb-2 max-w-sm min-w-xs"
-			>Your Name: <Input id="name" placeholder="Name" type="text" name="name" /></Label
+		<label for="name" class="mb-2 max-w-sm min-w-xs"
+			>Your Name: <input id="name" placeholder="Name" type="text" name="name" /></label
 		>
-		<Label for="business" class="mb-2 max-w-sm min-w-xs"
-			>Business Name: <Input
+		<label for="business" class="mb-2 max-w-sm min-w-xs"
+			>Business Name: <input
 				id="business"
 				placeholder="Business Name"
 				type="text"
 				name="business"
-			/></Label
+			/></label
 		>
-		<Label for="email" class="mb-2 max-w-sm min-w-xs"
-			>Your Email: <Input id="email" placeholder="Email" type="email" name="email" /></Label
+		<label for="email" class="mb-2 max-w-sm min-w-xs"
+			>Your Email: <input id="email" placeholder="Email" type="email" name="email" /></label
 		>
-		<Label for="phone" class="mb-2 max-w-sm min-w-xs"
-			>Your Phone: <Input id="phone" placeholder="Phone" type="phone" name="phone" /></Label
+		<label for="phone" class="mb-2 max-w-sm min-w-xs"
+			>Your Phone: <input id="phone" placeholder="Phone" type="phone" name="phone" /></label
 		>
-		<Checkbox id="preferPhone" class="mb-2 max-w-sm min-w-xs" name="preferPhone">
-			I prefer phone.</Checkbox
+		<checkbox id="preferPhone" class="mb-2 max-w-sm min-w-xs" name="preferPhone">
+			I prefer phone.</checkbox
 		>
-		<Label for="role" class="mb-2 max-w-sm min-w-xs"
-			>Your Role: <br /><Select class="mt-2" items={options} bind:value={selected} /></Label
-		>
-		<Label for="message" class="mb-2 md:col-span-3"
-			>Message: <br /><Textarea id="message" required placeholder="Message" name="message" /></Label
-		>
-		<Input type="hidden" name="form-name" value="contact" />
-		<Button class="btn btn-secondary mx-auto" type="submit" value="Submit">Send</Button>
+
+    <select class="select select-bordered text-white w-full mb-2 max-w-sm min-w-xs" items={options} bind:value={selected}>
+      <option disabled selected>Your role:</option>
+      {#each options as option}
+          <option>{option.name}</option>
+      {/each}
+    </select>
+
+		<label for="message" class="label">
+      <span class="label-text">Your Message</span>
+    </label>
+    <textarea id="message" class="textarea textarea-bordered h-24 text-white" placeholder="Message"></textarea>
+
+		<input type="hidden" name="form-name" value="contact" />
+		<button class="btn btn-secondary mx-auto" type="submit" value="Submit">Send</button>
 	</form>
 </div>

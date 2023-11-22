@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config}*/
 const config = {
-	content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'],
+	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
     extend: {
@@ -26,7 +26,7 @@ const config = {
     themes: ["forest"],
   },
 
-	plugins: [require("daisyui"), require('flowbite/plugin')],
+	plugins: [require("daisyui")],
 };
 
 module.exports = config;

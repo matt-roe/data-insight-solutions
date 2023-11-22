@@ -23,6 +23,7 @@
 		<div class="container mx-auto my-auto">
 			<Carousel />
 		</div>
+
 	</div>
 	<div class="container mx-auto my-auto">
 

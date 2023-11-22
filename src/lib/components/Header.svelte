@@ -7,6 +7,19 @@
 		const main = document.querySelector('main');
 		main.focus();
 	}
+
+
+  import lottie from 'lottie-web';
+  import animationData from '$lib/assets/animations/bars.json';
+  import { onMount } from 'svelte';
+
+  let animationContainer
+  onMount(()=>{
+    lottie.loadAnimation({
+      container: animationContainer,
+      animationData: animationData
+    })
+  })
 </script>
 
 
@@ -18,8 +31,9 @@
 	<a href="/" class="site-title">
 		{siteTitle}
 	</a>
-
+  <div class="w-20" bind:this={animationContainer}></div>
 	<HamburgerMenuButton />
 	<MainNav />
+
 
 </header>
