@@ -43,21 +43,10 @@ Here you can inquire about us, our process and services, or just say hello!
 		<label for="phone" class="mb-2 max-w-sm min-w-xs"
 			>Your Phone: <input id="phone" placeholder="Phone" type="phone" name="phone" /></label
 		>
-		<checkbox id="preferPhone" class="mb-2 max-w-sm min-w-xs" name="preferPhone">
-			I prefer phone.</checkbox
-		>
-
-    <select class="select select-bordered text-white w-full mb-2 max-w-sm min-w-xs" items={options} bind:value={selected}>
-      <option disabled selected>Your role:</option>
-      {#each options as option}
-          <option>{option.name}</option>
-      {/each}
-    </select>
-
-		<label for="message" class="label">
+		<label for="message_body" class="mb-2 max-w-sm min-w-xs">
       <span class="label-text">Your Message</span>
     </label>
-    <textarea id="message" class="textarea textarea-bordered h-24 text-white" placeholder="Message"></textarea>
+    <textarea id="message_body" class="textarea textarea-bordered h-24 text-white" placeholder="Message"></textarea>
 
 		<input type="hidden" name="form-name" value="contact" />
 		<button class="btn btn-secondary mx-auto" type="submit" value="Submit">Send</button>
