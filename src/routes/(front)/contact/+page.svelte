@@ -27,7 +27,7 @@ Here you can inquire about us, our process and services, or just say hello!
 		action="https://formspree.io/f/mvojdjre"
 	>
 		<label for="name" class="mb-2 max-w-sm min-w-xs"
-			>Your Name: <input id="name" placeholder="Name" type="text" name="name" /></label
+			>Your Name: <input id="name" placeholder="Name" type="text" name="name" class="text-white"/></label
 		>
 		<label for="business" class="mb-2 max-w-sm min-w-xs"
 			>Business Name: <input
@@ -38,10 +38,10 @@ Here you can inquire about us, our process and services, or just say hello!
 			/></label
 		>
 		<label for="email" class="mb-2 max-w-sm min-w-xs"
-			>Your Email: <input id="email" placeholder="Email" type="email" name="email" /></label
+			>Your Email: <input id="email" placeholder="Email" type="email" name="email" class="text-white"/></label
 		>
 		<label for="phone" class="mb-2 max-w-sm min-w-xs"
-			>Your Phone: <input id="phone" placeholder="Phone" type="phone" name="phone" /></label
+			>Your Phone: <input id="phone" placeholder="Phone" type="phone" name="phone" class="text-white"/></label
 		>
 		<label for="message_body" class="mb-2 max-w-sm min-w-xs">
       <span >Your Message: </span>
