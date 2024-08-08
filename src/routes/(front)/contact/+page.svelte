@@ -33,6 +33,7 @@ Here you can inquire about us, our process and services, or just say hello!
 			>Business Name: <input
 				id="business"
 				placeholder="Business Name"
+        class="text-white"
 				type="text"
 				name="business"
 			/></label
