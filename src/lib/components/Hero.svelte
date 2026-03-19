@@ -6,7 +6,7 @@
 	<div class="hero-content text-neutral-content">
 		<div class="z-60 drop-shadow-lg text-center">
 			<div class="mb-5 text-8xl font-bold">Transform Data</div>
-			<div class="mb-5 max-w-md">
+			<div class="mb-5 max-w-xl text-center">
 				into actionable insights. We help businesses collect, automate, integrate, and display data to drive informed decisions and sustainable growth.
 			</div>
 			<div class="flex gap-4 justify-center">

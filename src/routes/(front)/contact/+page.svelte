@@ -135,7 +135,7 @@
 		<h2>What Happens Next?</h2>
 		<ol class="list-decimal list-inside space-y-3">
 			<li>We review your message and understand your challenge</li>
-			<li>We'll reach out within 24 hours to discuss your situation</li>
+			<li>We'll reach out within 2 business days to discuss your situation</li>
 			<li>If it's a good fit, we'll propose next steps and pricing</li>
 		</ol>
 	</section>

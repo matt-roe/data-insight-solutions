@@ -28,8 +28,13 @@ main {
 	}
 
 	.meta {
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 		margin-bottom: 4rem;
+		color: var(--ink);
+		line-height: 1.6;
+		padding: 1rem;
+		background-color: var(--lightAccent);
+		border-radius: 0.25rem;
 	}
 
 	img + h1 {
