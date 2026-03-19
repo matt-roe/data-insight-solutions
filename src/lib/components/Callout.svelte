@@ -1,3 +1,7 @@
+<script>
+	let { children } = $props()
+</script>
+
 <div class="callout">
-	<slot />
+	{@render children()}
 </div>

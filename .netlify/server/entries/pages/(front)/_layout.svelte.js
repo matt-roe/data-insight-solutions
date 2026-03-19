@@ -1,4 +1,4 @@
-import { a as attr, b as attr_class, s as slot, u as unsubscribe_stores, d as derived, c as store_get, f as ensure_array_like, e as escape_html } from "../../../chunks/index2.js";
+import { a as attr, b as attr_class, u as unsubscribe_stores, d as derived, c as store_get, f as ensure_array_like, e as escape_html, s as slot } from "../../../chunks/index2.js";
 import "clsx";
 import { n as navItems, s as siteTitle, d as siteAuthor } from "../../../chunks/config.js";
 import { w as writable } from "../../../chunks/index.js";
@@ -14,11 +14,11 @@ const isMenuOpen = writable(false);
 function NavItem($$renderer, $$props) {
   $$renderer.component(($$renderer2) => {
     var $$store_subs;
-    let { href } = $$props;
+    let { href, children } = $$props;
     let isCurrentPage = derived(() => store_get($$store_subs ??= {}, "$currentPage", currentPage).startsWith(href));
-    $$renderer2.push(`<li><a${attr("href", href)}${attr("aria-current", isCurrentPage() ? "page" : false)}${attr_class("", void 0, { "active": isCurrentPage() })}><!--[-->`);
-    slot($$renderer2, $$props, "default", {});
-    $$renderer2.push(`<!--]--></a></li>`);
+    $$renderer2.push(`<li><a${attr("href", href)}${attr("aria-current", isCurrentPage() ? "page" : false)}${attr_class("", void 0, { "active": isCurrentPage() })}>`);
+    children($$renderer2);
+    $$renderer2.push(`<!----></a></li>`);
     if ($$store_subs) unsubscribe_stores($$store_subs);
   });
 }
@@ -56,8 +56,7 @@ function MainNav($$renderer) {
       href: page.route,
       children: ($$renderer2) => {
         $$renderer2.push(`<!---->${escape_html(page.title)}`);
-      },
-      $$slots: { default: true }
+      }
     });
   }
   $$renderer.push(`<!--]--></ul> `);

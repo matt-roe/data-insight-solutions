@@ -5,7 +5,7 @@
 	import { siteDescription } from '$lib/config'
 
 	let { data } = $props()
-  const { page, totalPosts, posts } = data
+	const { page, totalPosts, posts } = data
 
 	let lowerBound = $derived((page * postsPerPage) - (postsPerPage - 1) || 1)
 	let upperBound = $derived(Math.min(page * postsPerPage, totalPosts))

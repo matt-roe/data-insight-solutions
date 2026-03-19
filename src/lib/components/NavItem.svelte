@@ -1,7 +1,7 @@
 <script>
 	import { currentPage, isMenuOpen } from '$lib/assets/js/store'
 
-	let { href } = $props()
+	let { href, children } = $props()
 
 	let isCurrentPage = $derived($currentPage.startsWith(href))
 
@@ -19,6 +19,6 @@
 		class:active={isCurrentPage}
 		aria-current={isCurrentPage ? 'page' : false}
 	>
-		<slot />
+		{@render children()}
 	</a>
 </li>
