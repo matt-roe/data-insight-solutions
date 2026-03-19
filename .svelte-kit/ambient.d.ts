@@ -126,6 +126,7 @@ declare module '$env/static/private' {
 	export const GDK_BACKEND: string;
 	export const DISPLAY: string;
 	export const LOCPATH: string;
+	export const npm_config_legacy_peer_deps: string;
 	export const NoDefaultCurrentDirectoryInExePath: string;
 	export const LANG: string;
 	export const XDG_CURRENT_DESKTOP: string;
@@ -347,6 +348,7 @@ declare module '$env/dynamic/private' {
 		GDK_BACKEND: string;
 		DISPLAY: string;
 		LOCPATH: string;
+		npm_config_legacy_peer_deps: string;
 		NoDefaultCurrentDirectoryInExePath: string;
 		LANG: string;
 		XDG_CURRENT_DESKTOP: string;

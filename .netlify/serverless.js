@@ -1,28 +1,7 @@
 import './shims.js';
 import { Server } from './server/index.js';
-import 'node:stream/web';
 import 'node:buffer';
 import 'node:crypto';
-import 'assert';
-import 'net';
-import 'http';
-import 'stream';
-import 'buffer';
-import 'util';
-import 'querystring';
-import 'stream/web';
-import 'worker_threads';
-import 'perf_hooks';
-import 'util/types';
-import 'events';
-import 'tls';
-import 'async_hooks';
-import 'console';
-import 'url';
-import 'zlib';
-import 'string_decoder';
-import 'crypto';
-import 'diagnostics_channel';
 
 var setCookie = {exports: {}};
 
