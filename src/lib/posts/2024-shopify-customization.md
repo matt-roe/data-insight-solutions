@@ -52,7 +52,7 @@ Rather than rewriting everything (expensive, risky), we strategically customized
 ## Why This Matters
 
 **The Modern E-Commerce Reality:**
-The web storefront is where commerce happens. In 2024:
+The web storefront is where commerce happens. In 2026:
 - ✅ Lower risk than physical retail
 - ✅ Lower overhead
 - ✅ Global reach

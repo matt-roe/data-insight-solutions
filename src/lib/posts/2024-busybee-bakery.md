@@ -120,7 +120,7 @@ You don't need to choose between professional appearance and sustainable unit ec
 - Scale without massive reinvestment
 - Stay profitable while growing
 
-**The barrier to entry in 2024 isn't capital—it's knowledge about which tools to use.**
+**The barrier to entry in 2026 isn't capital—it's knowledge about which tools to use.**
 
 ## Could This Be Your Business?
 

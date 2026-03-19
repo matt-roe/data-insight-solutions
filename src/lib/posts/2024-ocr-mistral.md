@@ -172,7 +172,7 @@ extracted_text = response.choices[0].message.content
 - Required on-premises software
 - Couldn't understand context
 
-**Modern AI Vision (2024):**
+**Modern AI Vision (Today in 2026):**
 - 95%+ accuracy on standard images
 - Affordable per-image pricing
 - API-based (simple integration)
