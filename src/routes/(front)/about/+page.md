@@ -1,20 +1,30 @@
 <svelte:head>
-
 <title>About</title>
 </svelte:head>
 
-# About
+# About Data Insight Solutions
 
-Data Insight Solutions was founded in 2023 by Matthew Roe. They key motivation to start the company was simply, **people**.
+Data Insight Solutions was founded in 2023 by Matthew Roe with a mission rooted in a simple conviction: **people should be at the center of technology**.
 
-<br>
+## Our Philosophy
 
-People should be the true purpose of technology. Technology should enable more, and improved human experience. We have seen how technology has brought people together, from across the globe. That dear family member who once lived near, despite moving away is simply a phone call away! Now, you can even see their face. Communication tools are one good example of **technology for people**. There are many other examples of data bringing value to people's lives. Whether its weather forecasts or vehicle diagnostics, the possibilities are endless.
+Technology exists to enhance human capability, not replace it. From enabling global communication to powering critical business decisions, the most impactful technology amplifies what people can accomplish together. Data, when harnessed effectively, is one of the most powerful tools available.
 
-<br>
+Whether it's weather forecasts that save lives, vehicle diagnostics that prevent breakdowns, or business analytics that drive growth, data-driven insights improve outcomes across every domain. Our role is to help you unlock that potential.
 
-Our approach is simple, we are not the experts of your business. We are the data experts, to help your team collect, automate, integrate, and display your business data in an impactful way. When technology is working for people, it can enable feats not normally possible. Let's do something great, together.
+## Our Approach
 
-<br>
+We understand that your business is unique. Rather than imposing one-size-fits-all solutions, we work as your data experts—partnering with your team to:
 
-[Click here](/) if you want to go back Home.
+- **Understand** your specific challenges and goals
+- **Design** solutions that fit your existing tools, skills, and processes
+- **Implement** systems that your team can confidently maintain and evolve
+- **Empower** your people to make better decisions with better information
+
+We believe the most successful technology solutions are those that your team actually uses and owns. That's why we focus on designing for adoption, not just capability.
+
+## Let's Build Something Great
+
+Data complexity shouldn't be a barrier. With the right approach and partnership, it becomes your competitive advantage. Let's work together to transform your data into strategic value.
+
+[Learn about our services](/services) | [Get in touch](/contact)

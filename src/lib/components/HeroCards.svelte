@@ -8,7 +8,7 @@
 		<div class="text-center max-w-lg">
 			<h2 class="text-3xl font-bold text-white">Collect</h2>
 			<p class="py-6 text-white">
-				Collecting data is the first requirement to any data solution. Let us help determine a low effort way to collect the data you need.
+				Establish reliable data sources from your business operations. From custom web forms and APIs to existing databases and communication platforms, we design collection strategies that minimize friction and maximize accuracy.
 			</p>
 			<!-- <button class="btn btn-primary w-full">Get Started</button> -->
 		</div>
@@ -51,7 +51,7 @@
 		<div class="text-center max-w-lg">
 			<h2 class="text-3xl font-bold text-white">Automate</h2>
 			<p class="py-6 text-white">
-				Automating the data management can reduce a large portion of the time to maintain the solution.
+				Eliminate manual processes and reduce human error through intelligent automation. We build workflows that handle data transformations, validations, and business logic so your team can focus on strategic decisions.
 			</p>
 			<!-- <button class="btn btn-primary w-full">Get Started</button> -->
 		</div>
@@ -93,9 +93,9 @@
 			class="h-80 w-full object-cover rounded-lg shadow-lg"
 		/>
 		<div class="text-center max-w-lg">
-			<h2 class="text-3xl font-bold text-white">Integration</h2>
+			<h2 class="text-3xl font-bold text-white">Integrate</h2>
 			<p class="py-6 text-white">
-				Data is rarely useful in isolation, integrating several data sources brings a more wholistic insight.
+				Break down data silos by connecting disparate systems and sources. Our integration solutions unify information across your organization, creating a single source of truth for better visibility and smarter decision-making.
 			</p>
 			<!-- <button class="btn btn-primary w-full">Get Started</button> -->
 		</div>
@@ -138,7 +138,7 @@
 		<div class="text-center max-w-lg">
 			<h2 class="text-3xl font-bold text-white">Display</h2>
 			<p class="py-6 text-white">
-				Data isn't useful unless it is displayed in an understandable way to the right audience.
+				Transform raw data into compelling visualizations that drive action. We create intuitive dashboards, reports, and interfaces tailored to your audience, ensuring insights are understood and acted upon.
 			</p>
 			<!-- <button class="btn btn-primary w-full">Get Started</button> -->
 		</div>

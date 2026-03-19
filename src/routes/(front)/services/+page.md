@@ -1,94 +1,42 @@
 <svelte:head>
-
 <title>Services</title>
 </svelte:head>
 
-# Services
+# Services & Pricing
 
-Technology solutions are widely varying in complexity and scope. For this reason we set starting costs for services. This is to allow for a successful service, even if the goal is a large one. Generally, services are priced at $200 per hour.
+Every organization has unique data challenges. Our service offerings are designed to support projects at any stage, from initial strategy through ongoing optimization. We believe in transparent, value-based pricing that scales with your needs.
 
-## Consultation
+**Standard Rates**: $200/hour for most services. Strategic consulting available at $250/hour.
 
-- Macro Process Diagramming
+## Strategic Consulting
 
-Starting at $200
-<br>
+Getting the foundation right matters. Our consulting services help you plan, design, and validate your data strategy before major investments.
 
-- Solution Design & Statement of Work (SoW)
-
-Starting at $800
-<br>
-
-- Software Product Research
-
-Starting at $200
-<br>
-
-- Software Request For Proposal (RFP)
-
-Starting at $600
-<br>
-
-- Machine Learning / AI Model Bias & Fairness Analysis
-
-Starting at $2000
-<br>
-
-- Business Start-Up Technology Strategy
-
-$250 per hour
-<br>
-
-- Data & AI Strategy
-
-$250 per hour
-<br>
+- **Macro Process Diagramming** — Visualize your business processes and data flows. Starting at $200
+- **Solution Design & Statement of Work (SoW)** — Design your ideal solution with implementation roadmap. Starting at $800
+- **Software Product Research** — Evaluate tools and platforms for your specific needs. Starting at $200
+- **Software Request For Proposal (RFP)** — Develop detailed requirements for vendor evaluation. Starting at $600
+- **Machine Learning / AI Model Bias & Fairness Analysis** — Ensure your models are ethical and reliable. Starting at $2,000
+- **Business Start-Up Technology Strategy** — Build your tech foundation from the ground up. $250/hour
+- **Data & AI Strategy** — Align your data initiatives with business goals. $250/hour
 
 ## Implementation & Administration
 
-- Website Design & Development
-  - Landing and informational pages
-  - Web forms such as contact or online applications
-  - Blog posting and Content Management Systems
-  - Low hosting fees starting at $0 / month
+From building custom solutions to configuring commercial platforms, we handle the technical work so you can focus on your business.
 
-Starting at $400
-<br>
-
-- Software Onboarding & Configuration
-
-  - VOIP Phone & SMS
-  - Office Software & Email
-  - Customer Relationship Manager
-  - Entity Relationship Manager
-  - Other software systems
-
-Starting at $400
-<br>
-
-- Low Code Automation or Integration
-
-Starting at $400
-<br>
-
-- Full Code Automation or Integration
-
-Starting at $1000
-<br>
-
-- Software Maintenance and Updates
-
-Starting at $200 / month
-<br>
+- **Website Design & Development** — Professional websites with custom functionality, content management, and contact forms. Low hosting fees available starting at $0/month. Starting at $400
+- **Software Onboarding & Configuration** — Get your tools working for you. We configure VOIP, email, CRM, ERM, and other business systems. Starting at $400
+- **Low Code Automation or Integration** — Powerful solutions using no-code and low-code platforms. Fast to build, easy to maintain. Starting at $400
+- **Full Code Automation or Integration** — Custom development for complex workflows and unique requirements. Starting at $1,000
+- **Software Maintenance and Updates** — Keep your systems running smoothly with ongoing support. Starting at $200/month
 
 ## Training & Support
 
-- Live training
+Adoption is everything. We provide training and support to ensure your team gets maximum value from your systems.
 
-$300 per hour
-<br>
+- **Live Training** — Hands-on sessions for your team. $300/hour
+- **Technical Support** — Expert help when you need it. $200/hour
 
-- Technical Support
+---
 
-$200 per hour
-<br>
+Have questions about which services are right for you? [Let's talk](/contact).

@@ -1,6 +1,6 @@
 <div class=" bg-base-300 p-4 xl:p-10 rounded-lg">
 	<div class="max-w-lg mx-auto pb-10">
-		<div class="text-3xl text-white font-bold text-center my-5">Personal Services</div>
+		<div class="text-3xl text-white font-bold text-center my-5">Client Success Stories</div>
 		<div class="text-lg text-white text-center">
 			Data Insight Solutions will speak with you and your team to understand your data needs, to design a unique solution with you. Each team has different technology skills, existing tools, etc. that all influence the ideal solution. After all no solution will be successful if its not used!
 		</div>

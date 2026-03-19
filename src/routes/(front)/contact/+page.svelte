@@ -10,9 +10,9 @@
 	<title>Contact</title>
 </svelte:head>
 
-<h1>Contact</h1>
+<h1>Get In Touch</h1>
 
-Here you can inquire about us, our process and services, or just say hello!
+<p class="mb-6">Have a question about your data challenges? Want to explore how we can help? We'd love to hear from you. Fill out the form below and we'll get back to you within one business day.</p>
 
 <div>
 	<form
