@@ -30,7 +30,7 @@
 
 			<div class="flex flex-wrap gap-3 mb-8">
 				{#each featuredPost.categories as category}
-					<span class="badge badge-lg badge-outline">{category}</span>
+					<span class="badge badge-lg badge-outline">{category.categoryName}</span>
 				{/each}
 			</div>
 
@@ -49,8 +49,8 @@
 						day: 'numeric' 
 					})}
 				</p>
-				<p class="text-sm text-gray-600">
-					<span class="font-semibold">Categories:</span> {featuredPost.categories.join(', ')}
+				<p class="text-sm text-slate">
+					<span class="font-semibold">Categories:</span> {featuredPost.categories.map(c => c.categoryName).join(', ')}
 				</p>
 			</div>
 		</div>
