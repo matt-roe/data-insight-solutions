@@ -6,6 +6,7 @@
 @use './utilities';
 @use './code';
 @use './prism';
+@use './accessibility';
 
 *:focus {
 	outline: 2px solid var(--accent);

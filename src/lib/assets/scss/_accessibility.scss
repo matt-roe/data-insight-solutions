@@ -1,0 +1,250 @@
+@use 'vars';
+
+/**
+ * Accessibility & Readability Improvements
+ * Based on WCAG 2.1 AA standards
+ */
+
+// Better line-height for readability
+body {
+	line-height: 1.6;
+	letter-spacing: 0.3px;
+}
+
+p {
+	margin: 1rem 0;
+	line-height: 1.75;
+
+	@media (min-width: vars.$smMin) {
+		margin: 1.5rem 0;
+	}
+}
+
+// Heading hierarchy with proper spacing
+:is(h1, h2, h3, h4, h5, h6) {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	font-weight: 600;
+	line-height: 1.3;
+	letter-spacing: 0.5px;
+
+	@media (min-width: vars.$smMin) {
+		margin-top: 2.5rem;
+		margin-bottom: 1.25rem;
+	}
+}
+
+h1 {
+	margin-top: 0;
+}
+
+h2 {
+	margin-top: 2.5rem;
+}
+
+// Lists with better spacing
+ul, ol {
+	margin: 1.5rem 0;
+	padding-left: 2rem;
+	line-height: 1.8;
+
+	li {
+		margin-bottom: 0.5rem;
+
+		@media (min-width: vars.$smMin) {
+			margin-bottom: 0.75rem;
+		}
+	}
+}
+
+// Links with clear focus states
+a {
+	color: var(--darker);
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-decoration-color: var(--accent);
+	text-underline-offset: 3px;
+	transition: all 0.2s ease;
+
+	&:hover {
+		color: var(--accent);
+		text-decoration-color: var(--darker);
+	}
+
+	&:focus {
+		outline: 3px solid var(--accent);
+		outline-offset: 2px;
+		border-radius: 2px;
+	}
+
+	// Skip link - ensure it's visible when focused
+	&.skip-link {
+		position: absolute;
+		top: -40px;
+		left: 0;
+		background: var(--accent);
+		color: var(--slate);
+		padding: 0.75rem 1.5rem;
+		text-decoration: none;
+		z-index: 100;
+		font-weight: bold;
+
+		&:focus {
+			top: 0;
+		}
+	}
+}
+
+// Form accessibility improvements
+label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+	color: var(--darker);
+	line-height: 1.4;
+
+	@media (min-width: vars.$smMin) {
+		margin-bottom: 0.75rem;
+	}
+}
+
+input, textarea, select {
+	font-size: 1rem; // Prevents mobile zoom on focus
+	line-height: 1.5;
+	padding: 0.75rem;
+	border: 2px solid var(--dark);
+	border-radius: 4px;
+	font-family: inherit;
+	transition: border-color 0.2s ease;
+
+	&:focus {
+		outline: none;
+		border-color: var(--accent);
+		box-shadow: 0 0 0 3px rgba(94, 255, 242, 0.1);
+	}
+
+	// Placeholder text with better contrast
+	&::placeholder {
+		color: var(--dark);
+		opacity: 0.7;
+	}
+}
+
+// Button accessibility
+button {
+	font-size: 1rem;
+	font-weight: 600;
+	padding: 0.75rem 1.5rem;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	border: 2px solid transparent;
+	text-decoration: none;
+
+	&:focus {
+		outline: 3px solid var(--accent);
+		outline-offset: 2px;
+	}
+
+	&:hover {
+		transform: translateY(-2px);
+	}
+
+	&:active {
+		transform: translateY(0);
+	}
+}
+
+// Info boxes with proper contrast
+.info-box, .callout {
+	background-color: var(--lighterAccent);
+	color: var(--slate);
+	padding: 1.5rem;
+	border-left: 4px solid var(--accent);
+	border-radius: 4px;
+	margin: 2rem 0;
+	line-height: 1.75;
+
+	h3 {
+		margin-top: 0;
+		color: var(--darker);
+		font-weight: 700;
+	}
+
+	// Ensure adequate contrast
+	p {
+		color: var(--slate);
+	}
+
+	a {
+		color: var(--darker);
+	}
+}
+
+// High contrast list items
+li {
+	line-height: 1.7;
+}
+
+// Code blocks with proper contrast
+code {
+	background: var(--slate);
+	color: var(--lighterAccent);
+	padding: 0.25rem 0.5rem;
+	border-radius: 3px;
+	font-family: var(--codeFont);
+	font-size: 0.9em;
+}
+
+pre {
+	background: var(--slate);
+	color: var(--lighterAccent);
+	padding: 1.5rem;
+	overflow-x: auto;
+	border-radius: 4px;
+	line-height: 1.5;
+	margin: 1.5rem 0;
+
+	code {
+		background: none;
+		color: inherit;
+		padding: 0;
+	}
+}
+
+// Strong contrast for important information
+strong, b {
+	font-weight: 700;
+	color: var(--darker);
+}
+
+// Better contrast for meta information
+small, .meta {
+	font-size: 0.9em;
+	line-height: 1.5;
+	color: var(--dark);
+}
+
+// Ensure sufficient color contrast for all interactive elements
+:is(.btn, button, a)[aria-current="page"] {
+	font-weight: 700;
+	color: var(--slate);
+	background: var(--accent);
+	text-decoration: none;
+}
+
+// Responsive text improvements
+@media (max-width: vars.$smMax) {
+	body {
+		font-size: 1rem;
+		line-height: 1.65;
+	}
+
+	:is(h1, h2, h3, h4, h5, h6) {
+		letter-spacing: 0.3px;
+	}
+
+	p {
+		line-height: 1.7;
+	}
+}
