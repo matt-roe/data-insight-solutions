@@ -60,6 +60,7 @@
       "src/lib/posts/2024-busybee-bakery.md",
       "src/lib/posts/2024-healthyconnections.md",
       "src/lib/posts/2024-legacy-software.md",
+      "src/lib/posts/2024-ocr-mistral.md",
       "src/lib/posts/2024-shopify-customization.md",
       "src/lib/posts/2024-voip-integration.md"
     ]
@@ -202,6 +203,15 @@
     "src": "src/lib/posts/2024-legacy-software.md",
     "isDynamicEntry": true
   },
+  "src/lib/posts/2024-ocr-mistral.md": {
+    "file": "chunks/2024-ocr-mistral.js",
+    "name": "2024-ocr-mistral",
+    "src": "src/lib/posts/2024-ocr-mistral.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_html.js"
+    ]
+  },
   "src/lib/posts/2024-shopify-customization.md": {
     "file": "chunks/2024-shopify-customization.js",
     "name": "2024-shopify-customization",
@@ -339,6 +349,7 @@
       "src/lib/posts/2024-busybee-bakery.md",
       "src/lib/posts/2024-healthyconnections.md",
       "src/lib/posts/2024-legacy-software.md",
+      "src/lib/posts/2024-ocr-mistral.md",
       "src/lib/posts/2024-shopify-customization.md",
       "src/lib/posts/2024-voip-integration.md"
     ]
@@ -540,6 +551,7 @@
       "src/lib/posts/2024-busybee-bakery.md",
       "src/lib/posts/2024-healthyconnections.md",
       "src/lib/posts/2024-legacy-software.md",
+      "src/lib/posts/2024-ocr-mistral.md",
       "src/lib/posts/2024-shopify-customization.md",
       "src/lib/posts/2024-voip-integration.md"
     ]
@@ -569,6 +581,7 @@
       "src/lib/posts/2024-busybee-bakery.md",
       "src/lib/posts/2024-healthyconnections.md",
       "src/lib/posts/2024-legacy-software.md",
+      "src/lib/posts/2024-ocr-mistral.md",
       "src/lib/posts/2024-shopify-customization.md",
       "src/lib/posts/2024-voip-integration.md"
     ]
