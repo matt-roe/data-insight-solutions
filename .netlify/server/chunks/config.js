@@ -14,7 +14,7 @@ const navItems = [
     route: "/services"
   },
   {
-    title: "Blog",
+    title: "Project Examples",
     route: "/blog"
   },
   {

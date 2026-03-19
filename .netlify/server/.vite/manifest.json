@@ -14,7 +14,10 @@
     "file": "chunks/README.js",
     "name": "README",
     "src": "README.md",
-    "isDynamicEntry": true
+    "isDynamicEntry": true,
+    "imports": [
+      "_html.js"
+    ]
   },
   "_Pagination.js": {
     "file": "chunks/Pagination.js",
@@ -25,7 +28,7 @@
     ]
   },
   "_app.js": {
-    "file": "_app/immutable/assets/app.CIu6o-MU.css",
+    "file": "_app/immutable/assets/app.CJR-XWkc.css",
     "src": "_app.js"
   },
   "_config.js": {
@@ -51,8 +54,18 @@
       "_config.js"
     ],
     "dynamicImports": [
-      "src/lib/posts/2023-09-30-test-1.md"
+      "src/lib/posts/2023-09-30-test-1.md",
+      "src/lib/posts/2024-ai-video-editing.md",
+      "src/lib/posts/2024-bakery-automation.md",
+      "src/lib/posts/2024-healthyconnections.md",
+      "src/lib/posts/2024-legacy-software.md",
+      "src/lib/posts/2024-shopify-customization.md",
+      "src/lib/posts/2024-voip-integration.md"
     ]
+  },
+  "_html.js": {
+    "file": "chunks/html.js",
+    "name": "html"
   },
   "_index.js": {
     "file": "chunks/index.js",
@@ -149,6 +162,48 @@
     "src": "src/lib/posts/2023-09-30-test-1.md",
     "isDynamicEntry": true
   },
+  "src/lib/posts/2024-ai-video-editing.md": {
+    "file": "chunks/2024-ai-video-editing.js",
+    "name": "2024-ai-video-editing",
+    "src": "src/lib/posts/2024-ai-video-editing.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_html.js"
+    ]
+  },
+  "src/lib/posts/2024-bakery-automation.md": {
+    "file": "chunks/2024-bakery-automation.js",
+    "name": "2024-bakery-automation",
+    "src": "src/lib/posts/2024-bakery-automation.md",
+    "isDynamicEntry": true
+  },
+  "src/lib/posts/2024-healthyconnections.md": {
+    "file": "chunks/2024-healthyconnections.js",
+    "name": "2024-healthyconnections",
+    "src": "src/lib/posts/2024-healthyconnections.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_html.js"
+    ]
+  },
+  "src/lib/posts/2024-legacy-software.md": {
+    "file": "chunks/2024-legacy-software.js",
+    "name": "2024-legacy-software",
+    "src": "src/lib/posts/2024-legacy-software.md",
+    "isDynamicEntry": true
+  },
+  "src/lib/posts/2024-shopify-customization.md": {
+    "file": "chunks/2024-shopify-customization.js",
+    "name": "2024-shopify-customization",
+    "src": "src/lib/posts/2024-shopify-customization.md",
+    "isDynamicEntry": true
+  },
+  "src/lib/posts/2024-voip-integration.md": {
+    "file": "chunks/2024-voip-integration.js",
+    "name": "2024-voip-integration",
+    "src": "src/lib/posts/2024-voip-integration.md",
+    "isDynamicEntry": true
+  },
   "src/routes/(admin)/+layout.server.js": {
     "file": "entries/pages/(admin)/_layout.server.js",
     "name": "entries/pages/(admin)/_layout.server",
@@ -211,7 +266,7 @@
     ],
     "css": [
       "_app/immutable/assets/_layout.d41A3RYQ.css",
-      "_app/immutable/assets/app.CIu6o-MU.css"
+      "_app/immutable/assets/app.CJR-XWkc.css"
     ]
   },
   "src/routes/(front)/+page.js": {
@@ -265,7 +320,13 @@
     "src": "src/routes/(front)/blog/[post]/+page.js",
     "isEntry": true,
     "dynamicImports": [
-      "src/lib/posts/2023-09-30-test-1.md"
+      "src/lib/posts/2023-09-30-test-1.md",
+      "src/lib/posts/2024-ai-video-editing.md",
+      "src/lib/posts/2024-bakery-automation.md",
+      "src/lib/posts/2024-healthyconnections.md",
+      "src/lib/posts/2024-legacy-software.md",
+      "src/lib/posts/2024-shopify-customization.md",
+      "src/lib/posts/2024-voip-integration.md"
     ]
   },
   "src/routes/(front)/blog/[post]/+page.svelte": {
@@ -440,7 +501,7 @@
       "_index2.js"
     ],
     "css": [
-      "_app/immutable/assets/app.CIu6o-MU.css"
+      "_app/immutable/assets/app.CJR-XWkc.css"
     ]
   },
   "src/routes/api/posts.json/+server.js": {
@@ -459,7 +520,13 @@
     "src": "src/routes/api/posts/count/+server.js",
     "isEntry": true,
     "dynamicImports": [
-      "src/lib/posts/2023-09-30-test-1.md"
+      "src/lib/posts/2023-09-30-test-1.md",
+      "src/lib/posts/2024-ai-video-editing.md",
+      "src/lib/posts/2024-bakery-automation.md",
+      "src/lib/posts/2024-healthyconnections.md",
+      "src/lib/posts/2024-legacy-software.md",
+      "src/lib/posts/2024-shopify-customization.md",
+      "src/lib/posts/2024-voip-integration.md"
     ]
   },
   "src/routes/api/posts/page/[page]/+server.js": {
@@ -481,7 +548,13 @@
       "_config.js"
     ],
     "dynamicImports": [
-      "src/lib/posts/2023-09-30-test-1.md"
+      "src/lib/posts/2023-09-30-test-1.md",
+      "src/lib/posts/2024-ai-video-editing.md",
+      "src/lib/posts/2024-bakery-automation.md",
+      "src/lib/posts/2024-healthyconnections.md",
+      "src/lib/posts/2024-legacy-software.md",
+      "src/lib/posts/2024-shopify-customization.md",
+      "src/lib/posts/2024-voip-integration.md"
     ]
   }
 }
