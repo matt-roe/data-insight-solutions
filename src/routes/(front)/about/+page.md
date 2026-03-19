@@ -4,27 +4,49 @@
 
 # About Data Insight Solutions
 
-Data Insight Solutions was founded in 2023 by Matthew Roe with a mission rooted in a simple conviction: **people should be at the center of technology**.
+## Our Mission
+
+Data is your most valuable asset—yet many organizations struggle to harness it effectively. Data Insight Solutions exists to bridge that gap. We help businesses transform raw data into strategic advantage through thoughtful architecture, skilled implementation, and genuine partnership.
 
 ## Our Philosophy
 
-Technology exists to enhance human capability, not replace it. From enabling global communication to powering critical business decisions, the most impactful technology amplifies what people can accomplish together. Data, when harnessed effectively, is one of the most powerful tools available.
+Technology should amplify human capability, not replace it. The most impactful solutions emerge when expert guidance meets practical execution—when teams understand not just the "what," but the "why" behind their systems.
 
-Whether it's weather forecasts that save lives, vehicle diagnostics that prevent breakdowns, or business analytics that drive growth, data-driven insights improve outcomes across every domain. Our role is to help you unlock that potential.
+We believe:
+
+- **People Come First** — Technology serves your team's goals and growth
+- **Context Matters** — Every business is unique; cookie-cutter solutions fail
+- **Partnerships Work** — We succeed when you succeed; we invest in your long-term outcomes
+- **Knowledge Transfers** — Your team should understand and own your systems
 
 ## Our Approach
 
-We understand that your business is unique. Rather than imposing one-size-fits-all solutions, we work as your data experts—partnering with your team to:
+Rather than imposing solutions, we work alongside your team to understand your specific situation, constraints, and aspirations. We combine deep technical expertise with a focus on adoption and sustainability.
 
-- **Understand** your specific challenges and goals
-- **Design** solutions that fit your existing tools, skills, and processes
-- **Implement** systems that your team can confidently maintain and evolve
-- **Empower** your people to make better decisions with better information
+### Discovery
+We listen. We ask questions about your business processes, current tools, team capabilities, and strategic goals. We look beyond the surface problem to understand root causes.
 
-We believe the most successful technology solutions are those that your team actually uses and owns. That's why we focus on designing for adoption, not just capability.
+### Strategy
+We design a vision that's ambitious yet realistic—one that works with your existing capabilities and culture, not against them. We map out the path from here to there.
 
-## Let's Build Something Great
+### Implementation
+We build thoughtfully, focusing on quality, maintainability, and team involvement. Your team isn't watching from the sidelines; you're actively learning and contributing.
 
-Data complexity shouldn't be a barrier. With the right approach and partnership, it becomes your competitive advantage. Let's work together to transform your data into strategic value.
+### Transition
+As systems mature, we step back. You own your solutions. We remain available for optimization, scaling, and new challenges as your business evolves.
 
-[Learn about our services](/services) | [Get in touch](/contact)
+## Why Choose Us
+
+**Deep Expertise**: We've helped organizations across industries solve complex data challenges using platforms from Google Workspace and Microsoft Excel to enterprise systems and custom integrations.
+
+**True Partnership**: We're measured by your success, not by billable hours. We focus on outcomes that matter: time saved, errors eliminated, insights gained.
+
+**Practical Guidance**: We understand the gap between "technically possible" and "actually sustainable." We recommend solutions your team can adopt and maintain.
+
+**Transparency**: You understand what we're recommending and why. No black boxes. No unnecessary complexity.
+
+---
+
+## Let's Talk
+
+Ready to transform your data into competitive advantage? [Get in touch](/contact) and let's explore what's possible for your organization.

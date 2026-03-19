@@ -25,7 +25,7 @@
     ]
   },
   "_app.js": {
-    "file": "_app/immutable/assets/app.LzK4lrPQ.css",
+    "file": "_app/immutable/assets/app.DZODCfld.css",
     "src": "_app.js"
   },
   "_config.js": {
@@ -211,7 +211,7 @@
     ],
     "css": [
       "_app/immutable/assets/_layout.YoE1E-GG.css",
-      "_app/immutable/assets/app.LzK4lrPQ.css"
+      "_app/immutable/assets/app.DZODCfld.css"
     ]
   },
   "src/routes/(front)/+page.js": {
@@ -437,7 +437,7 @@
       "_index2.js"
     ],
     "css": [
-      "_app/immutable/assets/app.LzK4lrPQ.css"
+      "_app/immutable/assets/app.DZODCfld.css"
     ]
   },
   "src/routes/api/posts.json/+server.js": {
