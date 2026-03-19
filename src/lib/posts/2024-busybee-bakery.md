@@ -3,7 +3,7 @@ layout: blog
 title: "BusyBeeBakery.biz: A Profitable Lean Startup from Day One"
 date: 2026-03-15T10:00
 updated: 2026-03-15T10:00
-coverImage: /images/blog-posts/2024-busybee-bakery.jpg
+coverImage: /images/blog-posts/2024-busybee-bakery.png
 coverWidth: 300
 coverHeight: 400
 excerpt: How a new bakery startup achieved profitability in year one using free and affordable tools—proving that lean operations don't mean cutting corners on quality or brand.
