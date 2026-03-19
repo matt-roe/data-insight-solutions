@@ -5,8 +5,8 @@
 	<div class="hero-overlay bg-opacity-80"></div>
 	<div class="hero-content text-neutral-content">
 		<div class="z-60 drop-shadow-lg text-center">
-			<div class="mb-5 text-8xl font-bold">Transform Data</div>
-			<div class="mb-5 max-w-xl text-center">
+			<div class="mb-5 text-8xl font-bold text-center">Transform Data</div>
+			<div class="mb-5 max-w-2xl mx-auto text-center px-4">
 				into actionable insights. We help businesses collect, automate, integrate, and display data to drive informed decisions and sustainable growth.
 			</div>
 			<div class="flex gap-4 justify-center">
