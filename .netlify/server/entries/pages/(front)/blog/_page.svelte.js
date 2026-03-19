@@ -1,4 +1,4 @@
-import { ab as head, d as bind_props, b as attr } from "../../../../chunks/index2.js";
+import { a9 as head, aa as bind_props, a as attr } from "../../../../chunks/index2.js";
 import { P as PostsList, a as Pagination } from "../../../../chunks/Pagination.js";
 import { a as siteDescription } from "../../../../chunks/config.js";
 function _page($$renderer, $$props) {

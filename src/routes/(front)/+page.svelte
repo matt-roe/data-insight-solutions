@@ -6,7 +6,7 @@
 	import Hero from '$lib/components/Hero.svelte';
 	import HeroCards from '$lib/components/HeroCards.svelte';
 
-	export let data;
+	export const data = undefined;
 </script>
 
 <svelte:head>

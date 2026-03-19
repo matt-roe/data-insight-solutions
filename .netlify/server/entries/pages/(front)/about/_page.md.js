@@ -1,4 +1,4 @@
-import { ab as head } from "../../../../chunks/index2.js";
+import { a9 as head } from "../../../../chunks/index2.js";
 function _page_md($$renderer) {
   head("vumzih", $$renderer, ($$renderer2) => {
     $$renderer2.title(($$renderer3) => {

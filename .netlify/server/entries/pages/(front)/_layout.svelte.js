@@ -1,4 +1,4 @@
-import { a as store_get, b as attr, c as attr_class, s as slot, u as unsubscribe_stores, d as bind_props, f as fallback, h as ensure_array_like, e as escape_html } from "../../../chunks/index2.js";
+import { a as attr, b as attr_class, s as slot, u as unsubscribe_stores, d as derived, c as store_get, f as ensure_array_like, e as escape_html } from "../../../chunks/index2.js";
 import "clsx";
 import { n as navItems, s as siteTitle, d as siteAuthor } from "../../../chunks/config.js";
 import { w as writable } from "../../../chunks/index.js";
@@ -14,14 +14,12 @@ const isMenuOpen = writable(false);
 function NavItem($$renderer, $$props) {
   $$renderer.component(($$renderer2) => {
     var $$store_subs;
-    let isCurrentPage;
-    let href = $$props["href"];
-    isCurrentPage = store_get($$store_subs ??= {}, "$currentPage", currentPage).startsWith(href);
-    $$renderer2.push(`<li><a${attr("href", href)}${attr("aria-current", isCurrentPage ? "page" : false)}${attr_class("", void 0, { "active": isCurrentPage })}><!--[-->`);
+    let { href } = $$props;
+    let isCurrentPage = derived(() => store_get($$store_subs ??= {}, "$currentPage", currentPage).startsWith(href));
+    $$renderer2.push(`<li><a${attr("href", href)}${attr("aria-current", isCurrentPage() ? "page" : false)}${attr_class("", void 0, { "active": isCurrentPage() })}><!--[-->`);
     slot($$renderer2, $$props, "default", {});
     $$renderer2.push(`<!--]--></a></li>`);
     if ($$store_subs) unsubscribe_stores($$store_subs);
-    bind_props($$props, { href });
   });
 }
 function HamburgerSVG($$renderer) {
@@ -33,7 +31,7 @@ function XSVG($$renderer) {
 function HamburgerMenuButton($$renderer, $$props) {
   $$renderer.component(($$renderer2) => {
     var $$store_subs;
-    let closeOnly = fallback($$props["closeOnly"], false);
+    let { closeOnly = false } = $$props;
     $$renderer2.push(`<button${attr("aria-pressed", store_get($$store_subs ??= {}, "$isMenuOpen", isMenuOpen))} class="menu-button"${attr("tabindex", store_get($$store_subs ??= {}, "$isMenuOpen", isMenuOpen) || !closeOnly ? "0" : "-1")}><span class="sr-only">Toggle hamburger menu</span> `);
     if (closeOnly) {
       $$renderer2.push("<!--[0-->");
@@ -44,7 +42,6 @@ function HamburgerMenuButton($$renderer, $$props) {
     }
     $$renderer2.push(`<!--]--></button>`);
     if ($$store_subs) unsubscribe_stores($$store_subs);
-    bind_props($$props, { closeOnly });
   });
 }
 function MainNav($$renderer) {
@@ -87,8 +84,7 @@ function Footer($$renderer, $$props) {
 function _layout($$renderer, $$props) {
   $$renderer.component(($$renderer2) => {
     var $$store_subs;
-    let data = $$props["data"];
-    currentPage.set(data.path);
+    let { data } = $$props;
     $$renderer2.push(`<div${attr_class("layout", void 0, {
       "open": store_get($$store_subs ??= {}, "$isMenuOpen", isMenuOpen)
     })}>`);
@@ -103,7 +99,6 @@ function _layout($$renderer, $$props) {
     Footer($$renderer2);
     $$renderer2.push(`<!----></div>`);
     if ($$store_subs) unsubscribe_stores($$store_subs);
-    bind_props($$props, { data });
   });
 }
 export {

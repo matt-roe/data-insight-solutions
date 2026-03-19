@@ -2,7 +2,7 @@
 	class="hero h-[100vh] lg:h-[45rem] shadow-lg"
 	style="background-image: url('/images/data-chaos.png');"
 >
-	<div class="hero-overlay bg-opacity-80" />
+	<div class="hero-overlay bg-opacity-80"></div>
 	<div class="hero-content text-neutral-content">
 		<div class="z-60 drop-shadow-lg text-center">
 			<div class="mb-5 text-8xl font-bold">Data</div>

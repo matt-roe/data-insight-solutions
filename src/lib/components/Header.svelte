@@ -2,29 +2,29 @@
 	import MainNav from './MainNav.svelte'
 	import HamburgerMenuButton from './HamburgerMenuButton.svelte'
 	import { siteTitle } from '$lib/config'
+	import lottie from 'lottie-web'
+	import animationData from '$lib/assets/animations/bars.json'
 
-	const focusMain = () => {
-		const main = document.querySelector('main');
-		main.focus();
+	const focusMain = (e) => {
+		e.preventDefault()
+		const main = document.querySelector('main')
+		main?.focus()
 	}
 
+	let animationContainer = $state(null)
 
-  import lottie from 'lottie-web';
-  import animationData from '$lib/assets/animations/bars.json';
-  import { onMount } from 'svelte';
-
-  let animationContainer
-  onMount(()=>{
-    lottie.loadAnimation({
-      container: animationContainer,
-      animationData: animationData
-    })
-  })
+	$effect.pre(() => {
+		if (animationContainer) {
+			lottie.loadAnimation({
+				container: animationContainer,
+				animationData: animationData
+			})
+		}
+	})
 </script>
 
-
 <header>
-	<a on:click|preventDefault={focusMain} class="skip-to-content-link" href="#main">
+	<a onclick={focusMain} class="skip-to-content-link" href="#main">
 		Skip to main content
 	</a>
 

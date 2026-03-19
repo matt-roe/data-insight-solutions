@@ -13,7 +13,7 @@
 
 	<div class="flex justify-center">
 		<div class="mockup-phone shadow-xl">
-			<div class="camera" />
+			<div class="camera"></div>
 			<div class="display">
 				<div class="artboard artboard-demo phone-1">
 					<Hero />

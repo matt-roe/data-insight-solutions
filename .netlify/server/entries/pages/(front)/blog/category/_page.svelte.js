@@ -1,4 +1,4 @@
-import { ab as head, h as ensure_array_like, b as attr, ad as stringify, e as escape_html, d as bind_props } from "../../../../../chunks/index2.js";
+import { a9 as head, f as ensure_array_like, a as attr, ac as stringify, e as escape_html, aa as bind_props } from "../../../../../chunks/index2.js";
 function _page($$renderer, $$props) {
   let data = $$props["data"];
   const { uniqueCategories } = data;
