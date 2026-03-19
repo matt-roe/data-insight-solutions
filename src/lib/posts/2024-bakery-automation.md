@@ -1,8 +1,8 @@
 ---
 layout: blog
 title: "Streamlining a B2B Bakery: From Google Forms to Automated Operations"
-date: 2024-01-15T10:00
-updated: 2024-01-15T10:00
+date: 2026-01-20T10:00
+updated: 2026-01-20T10:00
 coverImage: /images/blog-posts/2024-bakery-automation.jpg
 coverWidth: 800
 coverHeight: 533

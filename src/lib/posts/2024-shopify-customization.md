@@ -1,8 +1,8 @@
 ---
 layout: blog
 title: "Shopify Storefronts: Customization Beyond Templates"
-date: 2024-02-15T10:00
-updated: 2024-02-15T10:00
+date: 2026-02-15T10:00
+updated: 2026-02-15T10:00
 coverImage: /images/blog-posts/2024-shopify-customization.jpg
 coverWidth: 800
 coverHeight: 533

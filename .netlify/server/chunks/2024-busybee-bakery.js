@@ -3,8 +3,8 @@ import { h as html } from "./html.js";
 const metadata = {
   "layout": "blog",
   "title": "BusyBeeBakery.biz: A Profitable Lean Startup from Day One",
-  "date": "2024-04-15T10:00",
-  "updated": "2024-04-15T10:00",
+  "date": "2026-03-15T10:00",
+  "updated": "2026-03-15T10:00",
   "coverImage": "/images/blog-posts/2024-busybee-bakery.jpg",
   "coverWidth": 300,
   "coverHeight": 400,

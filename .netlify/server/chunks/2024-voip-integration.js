@@ -2,8 +2,8 @@ import "clsx";
 const metadata = {
   "layout": "blog",
   "title": "Smart VOIP Integration: Healthcare Facility Saves Thousands with Desktop Integration",
-  "date": "2024-03-01T10:00",
-  "updated": "2024-03-01T10:00",
+  "date": "2026-03-01T10:00",
+  "updated": "2026-03-01T10:00",
   "coverImage": "/images/blog-posts/2024-voip-integration.jpg",
   "coverWidth": 800,
   "coverHeight": 533,

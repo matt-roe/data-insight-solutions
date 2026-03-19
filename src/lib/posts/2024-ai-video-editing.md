@@ -1,8 +1,8 @@
 ---
 layout: blog
 title: "AI-Powered Video Editing: From Insta360 360° Footage to Professional Output"
-date: 2024-04-01T10:00
-updated: 2024-04-01T10:00
+date: 2026-03-10T10:00
+updated: 2026-03-10T10:00
 coverImage: /images/blog-posts/2024-ai-video-editing.jpg
 coverWidth: 400
 coverHeight: 400

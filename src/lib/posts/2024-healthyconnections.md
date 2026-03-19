@@ -1,8 +1,8 @@
 ---
 layout: blog
 title: "Building an Affordable Healthcare Website with Google Drive and AWS"
-date: 2024-02-01T10:00
-updated: 2024-02-01T10:00
+date: 2026-02-01T10:00
+updated: 2026-02-01T10:00
 coverImage: /images/blog-posts/2024-healthyconnections.jpg
 coverWidth: 800
 coverHeight: 533

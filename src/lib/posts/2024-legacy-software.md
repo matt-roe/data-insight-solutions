@@ -1,8 +1,8 @@
 ---
 layout: blog
 title: "Extending Legacy Software: Running 16-Bit Engineering Tools on Modern Systems"
-date: 2024-03-15T10:00
-updated: 2024-03-15T10:00
+date: 2026-03-05T10:00
+updated: 2026-03-05T10:00
 coverImage: /images/blog-posts/2024-legacy-software.jpg
 coverWidth: 800
 coverHeight: 533
