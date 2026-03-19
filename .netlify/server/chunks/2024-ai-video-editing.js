@@ -5,9 +5,9 @@ const metadata = {
   "title": "AI-Powered Video Editing: From Insta360 360° Footage to Professional Output",
   "date": "2024-04-01T10:00",
   "updated": "2024-04-01T10:00",
-  "coverImage": "/images/spreadsheet.png",
-  "coverWidth": 300,
-  "coverHeight": 300,
+  "coverImage": "/images/blog-posts/2024-ai-video-editing.jpg",
+  "coverWidth": 400,
+  "coverHeight": 400,
   "excerpt": "How AI video editing built into Insta360 X3 and 3S Go cameras saves hours compared to manual editing in tools like DaVinci Resolve.",
   "categories": [
     { "categoryName": "Technology" },

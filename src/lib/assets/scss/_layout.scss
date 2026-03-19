@@ -35,6 +35,11 @@ main {
 	img + h1 {
 		margin-top: 1rem;
 	}
+
+	.cover-image {
+		max-width: 500px;
+		height: auto;
+	}
 }
 
 li {
@@ -47,6 +52,11 @@ li {
 
 	li {
 		margin-bottom: 6rem;
+	}
+
+	img {
+		max-width: 300px;
+		height: auto;
 	}
 
 	img + h2 {

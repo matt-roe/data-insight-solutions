@@ -4,9 +4,9 @@ const metadata = {
   "title": "Extending Legacy Software: Running 16-Bit Engineering Tools on Modern Systems",
   "date": "2024-03-15T10:00",
   "updated": "2024-03-15T10:00",
-  "coverImage": "/images/spreadsheet.png",
-  "coverWidth": 300,
-  "coverHeight": 300,
+  "coverImage": "/images/blog-posts/2024-legacy-software.jpg",
+  "coverWidth": 800,
+  "coverHeight": 533,
   "excerpt": "How engineers continue using specialized 16-bit fluid dynamics software through portable virtualization, avoiding expensive software replacement costs.",
   "categories": [
     { "categoryName": "Technology" },

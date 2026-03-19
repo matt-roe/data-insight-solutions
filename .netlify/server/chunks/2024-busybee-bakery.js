@@ -5,9 +5,9 @@ const metadata = {
   "title": "BusyBeeBakery.biz: A Profitable Lean Startup from Day One",
   "date": "2024-04-15T10:00",
   "updated": "2024-04-15T10:00",
-  "coverImage": "/images/spreadsheet.png",
+  "coverImage": "/images/blog-posts/2024-busybee-bakery.jpg",
   "coverWidth": 300,
-  "coverHeight": 300,
+  "coverHeight": 400,
   "excerpt": "How a new bakery startup achieved profitability in year one using free and affordable tools—proving that lean operations don't mean cutting corners on quality or brand.",
   "categories": [
     { "categoryName": "Technology" },

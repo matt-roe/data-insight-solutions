@@ -4,9 +4,9 @@ const metadata = {
   "title": "Streamlining a B2B Bakery: From Google Forms to Automated Operations",
   "date": "2024-01-15T10:00",
   "updated": "2024-01-15T10:00",
-  "coverImage": "/images/spreadsheet.png",
-  "coverWidth": 300,
-  "coverHeight": 300,
+  "coverImage": "/images/blog-posts/2024-bakery-automation.jpg",
+  "coverWidth": 800,
+  "coverHeight": 533,
   "excerpt": "How a wholesale bakery automated their pre-order process, shopping lists, and production workflows using Google Forms and spreadsheet automation.",
   "categories": [
     { "categoryName": "Technology" },

@@ -5,9 +5,9 @@ const metadata = {
   "title": "Building an Affordable Healthcare Website with Google Drive and AWS",
   "date": "2024-02-01T10:00",
   "updated": "2024-02-01T10:00",
-  "coverImage": "/images/spreadsheet.png",
-  "coverWidth": 300,
-  "coverHeight": 300,
+  "coverImage": "/images/blog-posts/2024-healthyconnections.jpg",
+  "coverWidth": 800,
+  "coverHeight": 533,
   "excerpt": "How HealthyConnections.biz uses Google Drive to manage PDFs and AWS S3/CloudFront for global distribution at minimal cost.",
   "categories": [
     { "categoryName": "Technology" },
