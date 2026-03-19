@@ -41,15 +41,15 @@
 				Read Full Project Example →
 			</a>
 
-			<div class="mt-8 p-6 bg-base-200 rounded-lg">
-				<p class="text-sm text-gray-600 mb-2">
-					<span class="font-semibold">Published:</span> {new Date(featuredPost.date).toLocaleDateString('en-US', { 
-						year: 'numeric', 
-						month: 'long', 
-						day: 'numeric' 
+			<div class="mt-8 p-6 bg-accent bg-opacity-10 rounded-lg border border-accent border-opacity-20">
+				<p class="text-sm text-ink mb-2">
+					<span class="font-semibold">Published:</span> {new Date(featuredPost.date).toLocaleDateString('en-US', {
+						year: 'numeric',
+						month: 'long',
+						day: 'numeric'
 					})}
 				</p>
-				<p class="text-sm text-slate">
+				<p class="text-sm text-ink">
 					<span class="font-semibold">Categories:</span> {featuredPost.categories.map(c => c.categoryName).join(', ')}
 				</p>
 			</div>
