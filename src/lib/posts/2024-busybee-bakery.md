@@ -20,7 +20,7 @@ featured: true
 
 When you're baking fresh products for local customers, you don't need e-commerce complexity. BusyBeeBakery.biz proved that a simpler approach works better:
 
-- Direct messaging with customers (WhatsApp, text, Facebook Messenger)
+- Direct messaging with customers (email, text, Facebook Messenger)
 - Personal conversations about what customers want
 - Custom orders and special requests easily accommodated
 - No website maintenance, no payment gateway complexity
@@ -34,9 +34,9 @@ When you're baking fresh products for local customers, you don't need e-commerce
 - **Result:** Professional appearance without agency fees
 
 **Customer Communication**
-- **WhatsApp/SMS/Facebook Messenger** — Built-in apps everyone already has
+- **Email, SMS (Text), Facebook Messenger** — Built-in tools everyone already uses
 - **No special tools needed** — Direct, personal, immediate
-- **Better for customization** — "Can you do gluten-free?" is a text conversation, not a form
+- **Better for customization** — "Can you do gluten-free?" is a quick message, not a form
 
 **Financial Management**
 - **QuickBooks Online** (~$15/month) — Expense tracking, invoicing, tax preparation
@@ -92,7 +92,7 @@ The temptation is to "look professional" with a fancy website. But for a local b
 
 **This business makes more sense with:**
 - ✅ Strong social media presence (Instagram photos of fresh product)
-- ✅ Direct customer messaging (WhatsApp for orders)
+- ✅ Direct customer messaging (email, text, Facebook Messenger for orders)
 - ✅ Simple payment processing (Square)
 - ✅ Clean accounting (QuickBooks)
 
