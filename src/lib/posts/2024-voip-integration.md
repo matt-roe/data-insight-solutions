@@ -3,9 +3,9 @@ layout: blog
 title: "Smart VOIP Integration: Healthcare Facility Saves Thousands with Desktop Integration"
 date: 2024-03-01T10:00
 updated: 2024-03-01T10:00
-coverImage: /images/spreadsheet.png
-coverWidth: 300
-coverHeight: 300
+coverImage: /images/blog-posts/2024-voip-integration.jpg
+coverWidth: 800
+coverHeight: 533
 excerpt: How a healthcare facility avoided expensive infrastructure costs by integrating VOIP phones directly to staff desktops instead of running physical wiring.
 categories:
   - categoryName: Technology

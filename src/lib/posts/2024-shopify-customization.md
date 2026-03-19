@@ -3,9 +3,9 @@ layout: blog
 title: "Shopify Storefronts: Customization Beyond Templates"
 date: 2024-02-15T10:00
 updated: 2024-02-15T10:00
-coverImage: /images/spreadsheet.png
-coverWidth: 300
-coverHeight: 300
+coverImage: /images/blog-posts/2024-shopify-customization.jpg
+coverWidth: 800
+coverHeight: 533
 excerpt: How custom frontend modifications and integrated forms transformed two Shopify stores into competitive, feature-rich sales platforms.
 categories:
   - categoryName: Technology

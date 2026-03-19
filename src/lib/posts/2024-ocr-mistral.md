@@ -3,9 +3,9 @@ layout: blog
 title: "Stop Typing Images: OCR and AI Vision Tools Are Ready for Your Business"
 date: 2024-05-01T10:00
 updated: 2024-05-01T10:00
-coverImage: /images/spreadsheet.png
+coverImage: /images/blog-posts/2024-ocr-mistral.jpg
 coverWidth: 300
-coverHeight: 300
+coverHeight: 487
 excerpt: If you find yourself typing what's on an image, OCR and AI vision tools might be the elegant solution you need. Here's how they work and why 2024 is the time to implement them.
 categories:
   - categoryName: Technology
